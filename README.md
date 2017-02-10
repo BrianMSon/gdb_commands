@@ -1,7 +1,7 @@
 # gdb_commands
 command list of gdb
 
-[gdb commands]
+```
 gdb 실행파일명 core파일명
 (gdb) bt
 (gdb) f 번호
@@ -32,3 +32,4 @@ or $ gdb -p PID
 (gdb) continue
 ^C
 (gdb) clear
+```
