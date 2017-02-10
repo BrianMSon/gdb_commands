@@ -2,27 +2,27 @@
 command list of gdb
 
 ```
-$ gdb ExeFileName CoreFileName
+$ gdb EXEFILE COREFILE
 (gdb) bt
-(gdb) f 번호
+(gdb) f NUMBER
 (gdb) list
-(gdb) p 변수명
+(gdb) p VARIABLE
 ```
 
 ### [gdb Attach]
 ```
-   $ sudo gdb 실행파일명 PID
-or $ gdb 실행파일명
+   $ sudo gdb EXEFILE PID
+or $ gdb EXEFILE
           (gdb) attach PID
 or $ gdb -p PID
 ```
 
-### [강제 덤프 남기기]
+### [Generate Core Dump]
 ```
 (gdb) generate-core-file coredump.1
 ```
 
-### [Thread 상태 확인]
+### [Thread Info]
 ```
 (gdb) info threads
 (gdb) t #thread_num
