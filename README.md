@@ -1,4 +1,4 @@
-# gdb_commands
+# gdb commands
 command list of gdb
 
 ```
