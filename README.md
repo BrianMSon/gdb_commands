@@ -30,6 +30,12 @@ or $ gdb -p PID
 (gdb) f #num
 ```
 
+### [All Thread Info]
+```
+(gdb) thread apply all bt
+(gdb) thread apply all bt full
+```
+
 ### [break]
 ```
 (gdb) info breakpoints
