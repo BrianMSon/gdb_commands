@@ -11,21 +11,25 @@ $ gdb EXEFILE COREFILE
 
 ### [gdb Attach]
 ```
-   $ sudo gdb EXEFILE PID
-or $ gdb EXEFILE
-          (gdb) attach PID
-or $ gdb -p PID
+$ sudo gdb EXEFILE PID
+<or>
+$ gdb EXEFILE
+   (gdb) attach PID
+<or>
+$ gdb -p PID
 ```
 
 ### [Generate Core Dump]
 ```
 (gdb) generate-core-file coredump.1
+<or>
+$ gcore PID
 ```
 
 ### [Thread Info]
 ```
 (gdb) info threads
-(gdb) t #thread_num
+(gdb) t THREAD_NUMBER
 (gdb) bt
 (gdb) f #num
 ```
